@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Modified repos according to sony aosp build guide. -->
+  <remove-project name="platform/external/toybox" />
+  <project path="external/toybox" name="external-toybox" groups="pdk" remote="8974" revision="android-7.1" />
+  <remove-project name="platform/packages/apps/Music" />
+  <project path="packages/apps/Music" name="packages-apps-Music" groups="pdk-fs" remote="8974" revision="android-7.1" />
+  <remove-project name="platform/system/core" />
+  <project path="system/core" name="system-core" groups="pdk" remote="8974" revision="android-7.1" />
+</manifest>
