@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remove Google's HAL repos. They do not support msm8974 any more. -->
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/keymaster" />
+  <remove-project name="platform/hardware/qcom/media" />
+
+  <project path="hardware/qcom/audio" name="hardware-qcom-audio" groups="qcom,qcom_audio" remote="8974" revision="android-7.1" />
+  <project path="hardware/qcom/bt" name="hardware-qcom-bt" groups="qcom" remote="8974" revision="android-7.1" />
+  <project path="hardware/qcom/camera" name="hardware-qcom-camera" groups="qcom" remote="8974" revision="android-7.1" />
+  <project path="hardware/qcom/display" name="hardware-qcom-display" groups="pdk,qcom,qcom_display" remote="8974" revision="android-7.1" />
+  <project path="hardware/qcom/fm" name="hardware-qcom-fm" remote="8974" revision="android-7.1" />
+  <project path="hardware/qcom/gps" name="hardware-qcom-gps" groups="qcom,qcom_gps" remote="8974" revision="android-7.1" />
+  <project path="hardware/qcom/keymaster" name="hardware-qcom-keymaster" groups="qcom,qcom_keymaster" remote="8974" revision="android-7.1" />
+  <project path="hardware/qcom/media" name="hardware-qcom-media" groups="qcom" remote="8974" revision="android-7.1" />
+</manifest>
