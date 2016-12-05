@@ -545,5 +545,6 @@
   <include name="8974-sony/remove-non8974.xml" />
   <include name="8974-sony/remove-nonlinux.xml" />
   <include name="8974-sony/8974-sony.xml" />
+  <include name="8974-sony/hal-aosp.xml" />
   <include name="8974-sony/aosp.xml" />
 </manifest>

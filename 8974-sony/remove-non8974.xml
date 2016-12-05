@@ -46,15 +46,4 @@
   <!--remove-project name="platform/hardware/ti/omap3" /-->
   <!--remove-project name="platform/hardware/ti/omap4-aah" /-->
   <!--remove-project name="platform/hardware/ti/omap4xxx" /-->
-  
-  <!-- Remove Google's HAL repos. They do not support msm8974 any more. -->
-  <!-- For now you must manually get the HAL repos in local manifests. They will
-       be added to the 8974-sony repo at a later point in time. -->
-  <remove-project name="platform/hardware/qcom/audio" />
-  <remove-project name="platform/hardware/qcom/bt" />
-  <remove-project name="platform/hardware/qcom/camera" />
-  <remove-project name="platform/hardware/qcom/display" />
-  <remove-project name="platform/hardware/qcom/gps" />
-  <remove-project name="platform/hardware/qcom/keymaster" />
-  <remove-project name="platform/hardware/qcom/media" />
 </manifest>
