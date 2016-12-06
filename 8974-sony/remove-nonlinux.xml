@@ -17,7 +17,6 @@
   
   <!-- Misc unneeded stuff. -->
   <remove-project name="platform/prebuilts/android-emulator" />
-  <remove-project name="platform/prebuilts/devtools" />
   <remove-project name="platform/prebuilts/eclipse" />
   <remove-project name="platform/prebuilts/eclipse-build-deps" />
 </manifest>
